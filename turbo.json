@@ -154,9 +154,8 @@
     "test:standard": {
       "dependsOn": ["install-browsers:local"],
       "cache": false
-    }
-  },
-  "pipeline": {
+    },
+
     "@n8n/chat": {
       "cache": false,
       "outputs": [],
